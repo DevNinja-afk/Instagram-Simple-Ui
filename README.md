@@ -1,4 +1,4 @@
-# eightball
+# Insta Clone
 
 A new Flutter project.
 
