@@ -75,7 +75,11 @@ class _MyHomeState extends State<MyHome> {
             ),
             Spacer(),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                setState(() {
+                  currentPage = 2;
+                });
+              },
               icon: Icon(
                 Icons.add,
                 size: 30,
